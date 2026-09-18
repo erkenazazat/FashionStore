@@ -1,4 +1,8 @@
 package abstractfactory;
 
-public class ClassicShoes {
+public class ClassicShoes implements IShoe {
+    @Override
+    public void wearShoe() {
+        System.out.println("Wearing classic oxford shoes.");
+    }
 }
